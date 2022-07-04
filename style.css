@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Merienda One", sans-serif;
+}
+
+.container {
+  width: 1244px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.img-in-the-box {
+  width: 100%;
+}
+
+.about-me-image .img-in-the-box {
+  width: 80%;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+span {
+  color: #fc9249;
+}
+
+.hero-section {
+}
+.hero-section-intro p {
+  margin-top: 20px;
+  color: #7a7777;
+  font-size: 18px;
+}
+
+.about-me-section-intro p {
+  margin-top: 20px;
+  color: #7a7777;
+  font-size: 18px;
+}
+
+.hero-section-intro a {
+  margin-top: 20px;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  background: linear-gradient(to right, #fb8e48, #fd5432);
+  padding: 15px 30px;
+  border-radius: 20px;
+}
+
+.about-me-section-intro a {
+  margin-top: 20px;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  background: linear-gradient(to right, #fb8e48, #fd5432);
+  padding: 15px 30px;
+  border-radius: 20px;
+}
+
+.about-me-section {
+  background-image: url(./Useable-images/7.png);
+}
+
+.my-recipes {
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+
+.my-recipes h2 {
+  font-size: 40px;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  color: #747474;
+}
+
+.my-recipes p {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  color: #7b7b7b;
+  margin-bottom: 20px;
+}
+
+.receipes-items {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.combine-receipe {
+  /* border: 1px solid black; */
+  border-radius: 5%;
+  margin-right: 20px;
+  box-shadow: 0 0 20px #c2bebe;
+}
+.combine-receipe h3 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.combine-receipe p {
+  text-align: center;
+}
+.combine-receipe img {
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.review {
+  margin-top: 50px;
+
+  padding: 30px 0;
+border-radius:10px;
+  box-shadow: 0 0 20px #c2bebe;
+}
+.center {
+  text-align: center;
+}
+
+.three-width {
+  width: 33.3%;
+}
+
+footer {
+ background-color: black;
+ margin-top: 80px !important;
+ padding: 20px 0 80px 0;
+}
+
+footer span {
+ color:#ea8c46;
+}
+
+footer h3{
+ color: #6f7283;
+ text-align: center;
+ margin-bottom: 15px;
+}
+
+footer p {
+ color: #fff;
+ font-size: 12px;
+ text-align: center;
+}
